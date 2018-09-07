@@ -14,4 +14,4 @@ The following equation $x=y$ can also be explanded as:
   \dfrac{a}{b} = {c}{d} \label{eq1}
 \end{align}
 
-Does references to equation labels work? How about we try this out - this is Equation ~\ref{eq1}. 
+Does references to equation labels work? How about we try this out - this is Equation $~\ref{eq1}$. 

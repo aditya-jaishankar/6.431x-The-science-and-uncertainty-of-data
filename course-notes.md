@@ -12,4 +12,4 @@ The following equation <img src="/tex/b1185cf9f05b29c99b55c0cde01294f5.svg?inver
 
 <p align="center"><img src="/tex/79a890e37cd15a71bf70184d2b2451bc.svg?invert_in_darkmode&sanitize=true" align=middle width=373.2752595pt height=29.47417935pt/></p>
 
-Does references to equation labels work? How about we try this out - this is Equation\ref{eq1}. 
+Does references to equation labels work? How about we try this out - this is Equation ~\ref{eq1}. 

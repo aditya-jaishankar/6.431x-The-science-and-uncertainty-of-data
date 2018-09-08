@@ -29,4 +29,9 @@ Course notes from 6.341x EdX course from MIT.
   - Identify probability laws (counting, uniform probability law, etc.)
   - Identify an event of interest
   - Calculate
- 
+* When calculating probabilities, drawing pictures, trees, tables, enumeration, etc. is highly recommended. Visual cues help a lot. 
+* The probability law has to be able to calculate probabilities for every possible outcome i.e. any subset $A$ of $\Omega$. 
+* Countable additivity theorem: For any discrete **sequence** of **disjoint** events $A_i$,
+$$
+\mathbf{P}(A_1 \cup A_2 \cup \cdots) = \sum_{i = 1}^\infty \mathbf{P}(A_i)
+$$

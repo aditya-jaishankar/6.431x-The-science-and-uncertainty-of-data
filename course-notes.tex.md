@@ -19,5 +19,6 @@ Course notes from 6.341x EdX course from MIT.
 * A generalization of summation axiom to a set of discrete events $\{s_1, s_2, ..., s_n\}$ is that $\mathbf{P}(\{s_1, s_2, ..., s_n\}) = \sum^i\mathbf{P}(\{s_i\}) = \sum^i\mathbf{P}(s_i)$. This can be proved like the continous case, but considering subsets consisting of one element, event $s_i$. By construction, these subsets are disjoint. 
 * When proving theorems on sets, subsets and probabilities, use Venn diagrams. They are your friend. 
 * Some more theorems: if $A \subset B$,
-  - \mathbf{P}(A \cup B) = \mathbf{P}(A) + \mathbf{P}(B) - \mathbf{P}(A \cap B)$
+  - $\mathbf{P}(A \cup B) = \mathbf{P}(A) + \mathbf{P}(B) - \mathbf{P}(A \cap B)$
   - Union bound: \mathbf{P}(A \cup B) \leq \mathbf{P}(A) + \mathbf{P}(B)$. 
+  - Discrete uniform law: if $\Omega$ has $n$ discrete outcomes, each equally likely (so each outcome has probability $1/n$) and $A \subset \Omega$ has $k$ elements, the $\mathbf{P}A$ = k\dot1/n = k/n$ 

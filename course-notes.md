@@ -29,4 +29,7 @@ Course notes from 6.341x EdX course from MIT.
   - Identify probability laws (counting, uniform probability law, etc.)
   - Identify an event of interest
   - Calculate
- 
+* When calculating probabilities, drawing pictures, trees, tables, enumeration, etc. is highly recommended. Visual cues help a lot. 
+* The probability law has to be able to calculate probabilities for every possible outcome i.e. any subset <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> of <img src="/tex/9432d83304c1eb0dcb05f092d30a767f.svg?invert_in_darkmode&sanitize=true" align=middle width=11.87217899999999pt height=22.465723500000017pt/>. 
+* Countable additivity theorem: For any discrete **sequence** of **disjoint** events <img src="/tex/4ebf880807deff5796460f39aea46f80.svg?invert_in_darkmode&sanitize=true" align=middle width=16.97969789999999pt height=22.465723500000017pt/>,
+<p align="center"><img src="/tex/c758d4bd323d82d6823e672d4cbc4441.svg?invert_in_darkmode&sanitize=true" align=middle width=215.47227075pt height=44.89738935pt/></p>

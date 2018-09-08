@@ -20,5 +20,5 @@ Course notes from 6.341x EdX course from MIT.
 * When proving theorems on sets, subsets and probabilities, use Venn diagrams. They are your friend. 
 * Some more theorems: if $A \subset B$,
   - $\mathbf{P}(A \cup B) = \mathbf{P}(A) + \mathbf{P}(B) - \mathbf{P}(A \cap B)$
-  - Union bound: \mathbf{P}(A \cup B) \leq \mathbf{P}(A) + \mathbf{P}(B)$. 
+  - Union bound: $\mathbf{P}(A \cup B) \leq \mathbf{P}(A) + \mathbf{P}(B)$. 
   - Discrete uniform law: if $\Omega$ has $n$ discrete outcomes, each equally likely (so each outcome has probability $1/n$) and $A \subset \Omega$ has $k$ elements, the $\mathbf{P}A$ = k\dot1/n = k/n$ 

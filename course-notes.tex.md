@@ -11,5 +11,7 @@ Course notes from 6.341x EdX course from MIT.
 * For easily countable number of outcomes, you can either draw up an outcome table or a outcome tree to enlist all possible outcomes.
 * For continuous sample sets, the probability of any one event occuring is 0, because the list of possible outcomes is infinite. All we can talk about in this case is the probability of a subset of the sample space. For example, probability of throwing a dart at the bullseye is zero, but the probability of it ending up in some sub-disk of the board is finite.
 * Here are some axioms of probabilities (Consider sample set $\Omega$ and an event $A$:
-  - $P(A) \geq 0$
-  - $P(\Omega) = 1$
+  - $\mathbf{P}(A) \geq 0$
+  - $\mathbf{P}(\Omega) = 1$
+  - $\mathbf{P}(A \cap B) = \mathbf{P}(A) + \mathbf{P}(B)$ if $\mathbf{P}(A \cup B) = \phi$, i.e., if $A$ and $B$ are disjoint (mutually exclusive) events/outcomes. 
+* Definition: A subset of a sample space is called an *event*. 

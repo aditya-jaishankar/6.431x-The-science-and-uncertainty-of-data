@@ -15,9 +15,9 @@ Course notes from 6.341x EdX course from MIT.
 \begin{equation}
   \mathbf{P}(A) \geq 0 \\
   \mathbf{P}(\Omega) = 1 \\
-  \mathbf{P}(A \cap B) = \mathbf{P}(A) + \mathbf{P}(B)
+  \mathbf{P}(A \cap B) = \mathbf{P}(A) + \mathbf{P}(B)\\
 \end{equation}
 
-if $\mathbf{P}(A \cup B) = \phi$, i.e., if $A$ and $B$ are disjoint (mutually exclusive) events/outcomes. 
+  if $\mathbf{P}(A \cup B) = \phi$, i.e., if $A$ and $B$ are disjoint (mutually exclusive) events/outcomes. 
 * Definition: A subset of a sample space is called an *event*. 
 * A generalization of summation axiom to a set of discrete events $\{s_1, s_2, ..., s_n\}$ is that $\mathbf{P}(\{s_1, s_2, ..., s_n\}) = \sum^i\mathbf{P}(\{s_i\}) = \sum^i\mathbf{P}(s_i)$. This can be proved like the continous case, but considering subsets consisting of one element, event $s_i$. By construction, these subsets are disjoint. 

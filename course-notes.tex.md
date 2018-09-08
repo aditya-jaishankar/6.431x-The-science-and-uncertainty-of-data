@@ -33,7 +33,10 @@ Course notes from 6.341x EdX course from MIT.
   - Calculate
 * When calculating probabilities, drawing pictures, trees, tables, enumeration, etc. is highly recommended. Visual cues help a lot. 
 * The probability law has to be able to calculate probabilities for every possible outcome i.e. any subset $A$ of $\Omega$. 
-* Countable additivity theorem: For any discrete **sequence** of **disjoint** events $A_i$,
+* Countable additivity theorem: For any **sequence** of **disjoint** events $A_i$,
 $$
 \mathbf{P}(A_1 \cup A_2 \cup \cdots) = \sum_{i = 1}^\infty \mathbf{P}(A_i)
 $$
+The word **sequence** is very important here. The word sequence can be interepreed as discrete events. For example, if the sample space is continuous, there is no way to arrange the elements in a sequence (like the real line), and this relationship does not hold. 
+
+* I cannot assign uniform probabilities to an infinite sequence of events in the sample space. 

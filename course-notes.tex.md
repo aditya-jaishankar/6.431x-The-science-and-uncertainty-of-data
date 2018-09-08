@@ -21,4 +21,12 @@ Course notes from 6.341x EdX course from MIT.
 * Some more theorems: if $A \subset B$,
   - $\mathbf{P}(A \cup B) = \mathbf{P}(A) + \mathbf{P}(B) - \mathbf{P}(A \cap B)$
   - Union bound: $\mathbf{P}(A \cup B) \leq \mathbf{P}(A) + \mathbf{P}(B)$. 
-  - Discrete uniform law: if $\Omega$ has $n$ discrete outcomes, each equally likely (so each outcome has probability $1/n$) and $A \subset \Omega$ has $k$ elements, the $\mathbf{P}(A) = k\dot1/n = k/n$ 
+  - Discrete uniform law: if $\Omega$ has $n$ discrete outcomes, each equally likely (so each outcome has probability $1/n$) and $A \subset \Omega$ has $k$ elements, the $\mathbf{P}(A) = k \cdot 1/n = k/n$ 
+* Probability laws are somehwat arbitrary because they are a model. We chose a model of what best captures the situation. 
+* Uniform probabilty law: For continuous sample spaces, the probability of a subset $A$ of $\omega$, is the ratio of the areas of $A$ and $\Omega$. 
+* There are four steps to the calculations of probabilities:
+  - Identify a sample space
+  - Identify probability laws (counting, uniform probability law, etc.)
+  - Identify an event of interest
+  - Calculate
+ 

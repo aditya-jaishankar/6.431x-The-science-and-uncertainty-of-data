@@ -1,7 +1,9 @@
 # 6.341x-The-science-and-uncertainty-of-data
 Course notes from 6.341x EdX course from MIT. 
 
-## Lecture 1: Probability models and axioms
+## Unit 1: Probability models and axioms
+
+### Lecture 1: Probability models and axioms
 
 * The basic concept in probability is that of a *sample space*.
 

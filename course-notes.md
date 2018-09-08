@@ -12,7 +12,7 @@ Course notes from 6.341x EdX course from MIT.
 * For continuous sample sets, the probability of any one event occuring is 0, because the list of possible outcomes is infinite. All we can talk about in this case is the probability of a subset of the sample space. For example, probability of throwing a dart at the bullseye is zero, but the probability of it ending up in some sub-disk of the board is finite.
 * Here are some axioms of probabilities (Consider sample set <img src="/tex/9432d83304c1eb0dcb05f092d30a767f.svg?invert_in_darkmode&sanitize=true" align=middle width=11.87217899999999pt height=22.465723500000017pt/> and an event <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>:
 
-<p align="center"><img src="/tex/f6d65c4f53942045a46a8c45e1c19c68.svg?invert_in_darkmode&sanitize=true" align=middle width=444.45753494999997pt height=65.753424pt/></p>
+<p align="center"><img src="/tex/61bf40376f11da318e0f5422f8b9b961.svg?invert_in_darkmode&sanitize=true" align=middle width=512.4025566pt height=16.438356pt/></p>
 
 if <img src="/tex/77862dde40851307c41617fcc1392e82.svg?invert_in_darkmode&sanitize=true" align=middle width=101.30681549999998pt height=24.65753399999998pt/>, i.e., if <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> and <img src="/tex/61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode&sanitize=true" align=middle width=13.29340979999999pt height=22.465723500000017pt/> are disjoint (mutually exclusive) events/outcomes. 
 * Definition: A subset of a sample space is called an *event*. 

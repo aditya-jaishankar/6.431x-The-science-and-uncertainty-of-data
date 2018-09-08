@@ -12,11 +12,11 @@ Course notes from 6.341x EdX course from MIT.
 * For continuous sample sets, the probability of any one event occuring is 0, because the list of possible outcomes is infinite. All we can talk about in this case is the probability of a subset of the sample space. For example, probability of throwing a dart at the bullseye is zero, but the probability of it ending up in some sub-disk of the board is finite.
 * Here are some axioms of probabilities (Consider sample set $\Omega$ and an event $A$:
 
-\begin{align}
-  \mathbf{P}(A) &\geq 0 \\
-  \mathbf{P}(\Omega) &= 1 \\
-  \mathbf{P}(A \cap B) &= \mathbf{P}(A) + \mathbf{P}(B)
-\end{align}
+\begin{equation}
+  \mathbf{P}(A) \geq 0 \\
+  \mathbf{P}(\Omega) = 1 \\
+  \mathbf{P}(A \cap B) = \mathbf{P}(A) + \mathbf{P}(B)
+\end{equation}
 
 if $\mathbf{P}(A \cup B) = \phi$, i.e., if $A$ and $B$ are disjoint (mutually exclusive) events/outcomes. 
 * Definition: A subset of a sample space is called an *event*. 

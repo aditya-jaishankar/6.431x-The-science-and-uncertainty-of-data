@@ -39,3 +39,6 @@ Course notes from 6.341x EdX course from MIT.
 * The word **sequence** is very important here. The word sequence can be interepreed as discrete events. For example, if the sample space is continuous, there is no way to arrange the elements in a sequence (like the real line), and this relationship does not hold. 
 
 * I cannot assign uniform probabilities to an infinite sequence of events in the sample space. 
+### Lecture 2:  Mathematical background: Sets; sequences, limits, and series; (un)countable sets. 
+
+* There are fundamental differences in the approaches used for discrete sample spaces and contiuous sample spaces

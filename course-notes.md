@@ -35,6 +35,7 @@ Course notes from 6.341x EdX course from MIT.
 * The probability law has to be able to calculate probabilities for every possible outcome i.e. any subset <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> of <img src="/tex/9432d83304c1eb0dcb05f092d30a767f.svg?invert_in_darkmode&sanitize=true" align=middle width=11.87217899999999pt height=22.465723500000017pt/>. 
 * Countable additivity theorem: For any **sequence** of **disjoint** events <img src="/tex/4ebf880807deff5796460f39aea46f80.svg?invert_in_darkmode&sanitize=true" align=middle width=16.97969789999999pt height=22.465723500000017pt/>,
 <p align="center"><img src="/tex/c758d4bd323d82d6823e672d4cbc4441.svg?invert_in_darkmode&sanitize=true" align=middle width=215.47227075pt height=44.89738935pt/></p>
+
 * The word **sequence** is very important here. The word sequence can be interepreed as discrete events. For example, if the sample space is continuous, there is no way to arrange the elements in a sequence (like the real line), and this relationship does not hold. 
 
 * I cannot assign uniform probabilities to an infinite sequence of events in the sample space. 

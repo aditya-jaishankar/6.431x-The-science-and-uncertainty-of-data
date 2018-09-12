@@ -58,10 +58,11 @@ Course notes from 6.341x EdX course from MIT.
 #### Solved problem set:
 * **Bonferroni's inequality**: For any n  events <img src="/tex/5db73d66f12e84b7f9105103647f5d7a.svg?invert_in_darkmode&sanitize=true" align=middle width=95.47765919999999pt height=22.465723500000017pt/>,
 <p align="center"><img src="/tex/fdff84c2c65271c18b9d13f2118e198b.svg?invert_in_darkmode&sanitize=true" align=middle width=453.2411202pt height=16.438356pt/></p>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODg3NDg2NywtMTgzNTE0MDcxOCwtMz
-MxODI3ODYxLC0xOTY1NTY3Njk0LC0xNzY1MjY3NTE5LC0xNzcy
-MzMwMjQ0LDU0Njk1NTIwMywtMTI3ODkwNjkwMCwtMTMxNDU2MT
-U3LDE1NzgyMzgxNzgsODIzNjM2Nzc5LC0xMzA4NTc1NDYzLC0x
-ODE4NjQ4NjI1LC0xNzQzNDY0NDY5XX0=
--->
+
+## Unit 2: Conditioning and Independence
+
+### Lecture 2: Conditioning and Bayes' Rule
+
+* The conditional probability of event <img src="/tex/61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode&sanitize=true" align=middle width=13.29340979999999pt height=22.465723500000017pt/> occurring, given that event <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> has occured is given by
+<p align="center"><img src="/tex/21ba5e4ec85dea6fa8c99bca9f8db79b.svg?invert_in_darkmode&sanitize=true" align=middle width=149.3810373pt height=38.83491479999999pt/></p>
+This is a definition - there is no question about whether it is correct or not. There is a useful intuition trick based on redefining the sample space i.e. when talking about <img src="/tex/1ceb3fd3136db4057fd1cba997584532.svg?invert_in_darkmode&sanitize=true" align=middle width=55.89616724999999pt height=24.65753399999998pt/>, because we are given that <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> definitely occured, all the elements in the sample space in <img src="/tex/9cc7485c6391f404907fe00e88d70a26.svg?invert_in_darkmode&sanitize=true" align=middle width=18.203450099999987pt height=22.465723500000017pt/> are automatically eliminated. <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> becomes the new sample space. 

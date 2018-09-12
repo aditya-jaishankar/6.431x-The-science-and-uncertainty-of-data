@@ -71,5 +71,6 @@ $$
 $$
 \mathbf{P}(B|A) = \dfrac{\mathbf{P}(B \cap A)}{\mathbf{P}(A)}
 $$
+
 * This is a definition - there is no question about whether it is correct or not. There is a useful intuition trick based on redefining the sample space i.e. when talking about $\mathbf{P}(B|A)$, because we are given that $A$ definitely occured, all the elements in the sample space in $A^c$ are automatically eliminated. $A$ becomes the new sample space. 
 * It can be shown that conditional probabilities obey the axioms of probabilities. This is powerful because any results derived for regular probabilities also apply to conditional probabilities. 

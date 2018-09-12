@@ -1,3 +1,4 @@
+
 # 6.341x-The-science-and-uncertainty-of-data
 Course notes from 6.341x EdX course from MIT. 
 
@@ -43,4 +44,28 @@ $$
 * I cannot assign uniform probabilities to an infinite sequence of events in the sample space. 
 ### Lecture 2:  Mathematical background: Sets; sequences, limits, and series; (un)countable sets. 
 
-* There are fundamental differences in the approaches used for discrete sample spaces and contiuous sample spaces
+* There are fundamental differences in the approaches used for discrete sample spaces and continuous sample spaces. 
+* A **set** is a collection of **distinct** elements.
+* Notation: 
+	- $\{a, b, c, d\}$ denotes a finite set where we can enumerate elements.
+	- For uncountable sets, $\{x \in \mathbb{R}: \cos(x) > 1/2\}$ means set of all real numbers $x$ such that $\cos(x) > 1/2$.  
+	- $\bigcup\limits_n S_n$ denotes unions of all sets $S_i$. Therefore $x \in \bigcup\limits_n S_n \iff x \in S_i$ for any $i$ in $1, 2, ..., n$. Similarly, intersections can be defined. 
+* **De Morgan's laws:** These can be proved with some basic logical arguments. 
+	- $\left(\bigcup\limits_n S_n\right)^c = \bigcap\limits_n S_n^c$
+	- $\left(\bigcap\limits_n S_n\right)^c = \bigcup\limits_n S_n^c$
+* A **sequence** $\{a_i\}$ can be thought of as a function that assigns a value to every natural number, i.e., $f:\mathbb{N} \to a_i, a_i \in S$. 
+* What we care about a lot is **convergent sequences**, where $\lim\limits_{i \to \infty} a_i = a$. The formal definition is that $\{a_i\}$ converges to $a$ if for any arbitrary $\varepsilon > 0, \varepsilon \in \mathbb{R}$ there exists $i > i_0$ such that $|a_i - a| < \varepsilon$ for some large enough $i_0 \in \mathbb{N}$. 
+* In an infinite series $\sum^\infty a_i$, the series is well defined if $a_i \geq 0$; the limit is either finite or infinite. That is, if the sequence of partial sums is monotonic as $n$ is made larger the limit exists (could be $\infty$). If the sequence of partial sums is non-monotonic i.e. if $a_i$ can be negative, then it is possible the sum of the series exists, but also that if we rearrange the order of performing the sum, we may get a different limit. These problems can be avoided by considering $S = \sum^\infty |a_i|$. If $S < \infty$ for *some* particular order of arranging the terms, then the original sequence of partial sums is guaranteed to converge to a finite limit, regardless of the particular order of adding the terms. This condition also applies to double series $\sum\limits_{i, j}^\infty a_{ij}$. If $\sum |a_{ij}| < \infty$ for *some* particular ordering of the terms, then the series (i.e. the sequence of partial sums) converges to a finite value, and order of summation of terms does not matter. *The lecture includes a beautiful graphical example of adding row-wise and column-wise to demonstrate this point.*
+* **Countable** and **Uncountable** sets: if I can assign a positive integer index to every element in the sample space, then the set is known as countable. In other words, if I can arrange the elements of the set in a sequence with positive integer indices. For example, the positive integers, all integers, rational numbers, etc. However, any interval on the real line is uncountable.  Cantor's diagnolization theorem is a beautiful way to prove this. 
+#### Solved problem set:
+* **Bonferroni's inequality**: For any n  events $A_1, A_2, ..., A_n$,
+$$
+\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) \geq \mathbf{P}(A_1) + \mathbf{P}(A_2) + \cdots \mathbf{P}(A_n) - (n-1)
+$$
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAzODg3NDg2NywtMTgzNTE0MDcxOCwtMz
+MxODI3ODYxLC0xOTY1NTY3Njk0LC0xNzY1MjY3NTE5LC0xNzcy
+MzMwMjQ0LDU0Njk1NTIwMywtMTI3ODkwNjkwMCwtMTMxNDU2MT
+U3LDE1NzgyMzgxNzgsODIzNjM2Nzc5LC0xMzA4NTc1NDYzLC0x
+ODE4NjQ4NjI1LC0xNzQzNDY0NDY5XX0=
+-->

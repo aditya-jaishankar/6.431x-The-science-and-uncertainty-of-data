@@ -1,5 +1,5 @@
 
-# 6.341x-The-science-and-uncertainty-of-data
+# 6.431x-The-science-and-uncertainty-of-data
 Course notes from 6.341x EdX course from MIT. 
 
 ## Unit 1: Probability models and axioms
@@ -68,3 +68,8 @@ Course notes from 6.341x EdX course from MIT.
 
 * This is a definition - there is no question about whether it is correct or not. There is a useful intuition trick based on redefining the sample space i.e. when talking about <img src="/tex/1ceb3fd3136db4057fd1cba997584532.svg?invert_in_darkmode&sanitize=true" align=middle width=55.89616724999999pt height=24.65753399999998pt/>, because we are given that <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> definitely occured, all the elements in the sample space in <img src="/tex/9cc7485c6391f404907fe00e88d70a26.svg?invert_in_darkmode&sanitize=true" align=middle width=18.203450099999987pt height=22.465723500000017pt/> are automatically eliminated. <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> becomes the new sample space. 
 * It can be shown that conditional probabilities obey the axioms of probabilities. This is powerful because any results derived for regular probabilities also apply to conditional probabilities. 
+
+* In general, it can be shown that for <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> events <img src="/tex/74eaa9aff4408015c3fc8d2337574f07.svg?invert_in_darkmode&sanitize=true" align=middle width=127.37223675pt height=22.465723500000017pt/>, 
+<p align="center"><img src="/tex/3f866cea69e7648b6583cf7407eb4e36.svg?invert_in_darkmode&sanitize=true" align=middle width=420.94943715pt height=18.411053099999997pt/></p>
+
+This derives straight from a repeated application of <img src="/tex/cddb25b80b4d127b2869fe0693414d78.svg?invert_in_darkmode&sanitize=true" align=middle width=700.27413555pt height=47.671232400000015pt/>. In words, the probability of <img src="/tex/e97e7e0e1e15b59d7243a919936fc344.svg?invert_in_darkmode&sanitize=true" align=middle width=133.83342389999999pt height=22.465723500000017pt/> occuring is the probability of $<img src="/tex/8c9a29562ee11544c0ead9e8fcae1633.svg?invert_in_darkmode&sanitize=true" align=middle width=150.6599919pt height=22.465723500000017pt/> occurring times the probability of <img src="/tex/51ea793aad42e760f5acf5135930081a.svg?invert_in_darkmode&sanitize=true" align=middle width=20.45482229999999pt height=22.465723500000017pt/> occurring given that <img src="/tex/8c9a29562ee11544c0ead9e8fcae1633.svg?invert_in_darkmode&sanitize=true" align=middle width=150.6599919pt height=22.465723500000017pt/> occurred. 

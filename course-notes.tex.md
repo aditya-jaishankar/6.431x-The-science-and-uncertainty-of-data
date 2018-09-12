@@ -68,7 +68,9 @@ $$
 ### Lecture 2: Conditioning and Bayes' Rule
 
 * The conditional probability of event $B$ occurring, given that event $A$ has occured is given by
+
 $$
 \mathbf{P}(B|A) = \dfrac{\mathbf{P}(B \cap A)}{\mathbf{P}(A)}
 $$
+
 This is a definition - there is no question about whether it is correct or not. There is a useful intuition trick based on redefining the sample space i.e. when talking about $\mathbf{P}(B|A)$, because we are given that $A$ definitely occured, all the elements in the sample space in $A^c$ are automatically eliminated. $A$ becomes the new sample space. 

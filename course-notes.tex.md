@@ -1,5 +1,5 @@
 
-# 6.341x-The-science-and-uncertainty-of-data
+# 6.431x-The-science-and-uncertainty-of-data
 Course notes from 6.341x EdX course from MIT. 
 
 ## Unit 1: Probability models and axioms
@@ -74,3 +74,10 @@ $$
 
 * This is a definition - there is no question about whether it is correct or not. There is a useful intuition trick based on redefining the sample space i.e. when talking about $\mathbf{P}(B|A)$, because we are given that $A$ definitely occured, all the elements in the sample space in $A^c$ are automatically eliminated. $A$ becomes the new sample space. 
 * It can be shown that conditional probabilities obey the axioms of probabilities. This is powerful because any results derived for regular probabilities also apply to conditional probabilities. 
+
+* In general, it can be shown that for $n$ events $A_1, A-2, \cdots, A_n$, 
+$$
+\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}(A_1) \Pi\limits_{k=2)^n \mathbf{P}(A_k|A_1 \cap A_2 \cap \cdots \cap A_{k-1})
+$$
+
+This derives straight from a repeated application of $\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}((A_1 \cap A_2 \cap \cdots \cap A_{n-1}) \cap A_n) = \mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_{n-1})\cdot\mathbf{P}(A_n | \cap A_1 \cap A_2 \cap \cdots \cap A_{n-1})$. In words, the probability of $A_1 \cap A_2 \cap \cdots \cap A_n$ occuring is the probability of $$A_1 \cap A_2 \cap \cdots \cap A_{n-1}$ occurring times the probability of $A_n$ occurring given that $A_1 \cap A_2 \cap \cdots \cap A_{n-1}$ occurred. 

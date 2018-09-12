@@ -82,7 +82,7 @@ $$
 
 * This derives straight from a repeated application of 
 $$
-\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}((A_1 \cap A_2 \cap \cdots \cap A_{n-1}) \cap A_n) = \mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_{n-1})\cdot\mathbf{P}(A_n | \cap A_1 \cap A_2 \cap \cdots \cap A_{n-1})
+\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}((A_1 \cap A_2 \cap \cdots \cap A_{n-1}) \cap A_n) = \mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_{n-1})\cdot\mathbf{P}(A_n | A_1 \cap A_2 \cap \cdots \cap A_{n-1})
 $$
 
 * In words, the probability of $A_1 \cap A_2 \cap \cdots \cap A_n$ occuring is the probability of $A_1 \cap A_2 \cap \cdots \cap A_{n-1}$ occurring times the probability of $A_n$ occurring given that $A_1 \cap A_2 \cap \cdots \cap A_{n-1}$ occurred. 

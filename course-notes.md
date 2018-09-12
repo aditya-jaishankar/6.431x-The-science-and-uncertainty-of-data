@@ -73,6 +73,6 @@ Course notes from 6.341x EdX course from MIT.
 <p align="center"><img src="/tex/0603bb89ec989d08108d8064287a0627.svg?invert_in_darkmode&sanitize=true" align=middle width=466.0649565pt height=16.438356pt/></p>
 
 * This derives straight from a repeated application of 
-<p align="center"><img src="/tex/7c7fdaca95d60476942f06f48bc0212d.svg?invert_in_darkmode&sanitize=true" align=middle width=734.4873425999999pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/a6cb4aa20ae213388c934822d89111f1.svg?invert_in_darkmode&sanitize=true" align=middle width=723.5284023pt height=16.438356pt/></p>
 
 * In words, the probability of <img src="/tex/e97e7e0e1e15b59d7243a919936fc344.svg?invert_in_darkmode&sanitize=true" align=middle width=133.83342389999999pt height=22.465723500000017pt/> occuring is the probability of <img src="/tex/8c9a29562ee11544c0ead9e8fcae1633.svg?invert_in_darkmode&sanitize=true" align=middle width=150.6599919pt height=22.465723500000017pt/> occurring times the probability of <img src="/tex/51ea793aad42e760f5acf5135930081a.svg?invert_in_darkmode&sanitize=true" align=middle width=20.45482229999999pt height=22.465723500000017pt/> occurring given that <img src="/tex/8c9a29562ee11544c0ead9e8fcae1633.svg?invert_in_darkmode&sanitize=true" align=middle width=150.6599919pt height=22.465723500000017pt/> occurred. 

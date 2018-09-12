@@ -62,10 +62,13 @@ $$
 $$
 \mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) \geq \mathbf{P}(A_1) + \mathbf{P}(A_2) + \cdots \mathbf{P}(A_n) - (n-1)
 $$
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODg3NDg2NywtMTgzNTE0MDcxOCwtMz
-MxODI3ODYxLC0xOTY1NTY3Njk0LC0xNzY1MjY3NTE5LC0xNzcy
-MzMwMjQ0LDU0Njk1NTIwMywtMTI3ODkwNjkwMCwtMTMxNDU2MT
-U3LDE1NzgyMzgxNzgsODIzNjM2Nzc5LC0xMzA4NTc1NDYzLC0x
-ODE4NjQ4NjI1LC0xNzQzNDY0NDY5XX0=
--->
+
+## Unit 2: Conditioning and Independence
+
+### Lecture 2: Conditioning and Bayes' Rule
+
+* The conditional probability of event $B$ occurring, given that event $A$ has occured is given by
+$$
+\mathbf{P}(B|A) = \dfrac{\mathbf{P}(B \cap A)}{\mathbf{P}(A)}
+$$
+This is a definition - there is no question about whether it is correct or not. There is a useful intuition trick based on redefining the sample space i.e. when talking about $\mathbf{P}(B|A)$, because we are given that $A$ definitely occured, all the elements in the sample space in $A^c$ are automatically eliminated. $A$ becomes the new sample space. 

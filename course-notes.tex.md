@@ -77,7 +77,7 @@ $$
 
 * In general, it can be shown that for $n$ events $A_1, A-2, \cdots, A_n$, 
 $$
-\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}(A_1) \Pi\limits_{k=2}^n \mathbf{P}(A_k|A_1 \cap A_2 \cap \cdots \cap A_{k-1})
+\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}(A_1) \prod\limits_{k=2}^n \mathbf{P}(A_k|A_1 \cap A_2 \cap \cdots \cap A_{k-1})
 $$
 
 * This derives straight from a repeated application of 
@@ -86,3 +86,10 @@ $$
 $$
 
 * In words, the probability of $A_1 \cap A_2 \cap \cdots \cap A_n$ occuring is the probability of $A_1 \cap A_2 \cap \cdots \cap A_{n-1}$ occurring times the probability of $A_n$ occurring given that $A_1 \cap A_2 \cap \cdots \cap A_{n-1}$ occurred. 
+
+* **Total Probability theorem**: If $A_1, A_2, \cdots, A_n$ are disjoint events, then
+$$
+\mathbf{P}(B) = \sum\limits_{k=1}^n \mathbf{P}(A_i)\cdot \mathbf{P}(B|A_i)
+$$
+
+In other words, the total probability that an event $B$ occurs is the weighted sum of the probabilities $B$ occurs under all disjoint scenarios, weighted by the probability of each scenario.  

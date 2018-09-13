@@ -70,9 +70,14 @@ Course notes from 6.341x EdX course from MIT.
 * It can be shown that conditional probabilities obey the axioms of probabilities. This is powerful because any results derived for regular probabilities also apply to conditional probabilities. 
 
 * In general, it can be shown that for <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> events <img src="/tex/74eaa9aff4408015c3fc8d2337574f07.svg?invert_in_darkmode&sanitize=true" align=middle width=127.37223675pt height=22.465723500000017pt/>, 
-<p align="center"><img src="/tex/0603bb89ec989d08108d8064287a0627.svg?invert_in_darkmode&sanitize=true" align=middle width=466.0649565pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/07c21e514f637f9d19c4c127d4ddfdf8.svg?invert_in_darkmode&sanitize=true" align=middle width=458.39355704999997pt height=45.2741091pt/></p>
 
 * This derives straight from a repeated application of 
 <p align="center"><img src="/tex/a6cb4aa20ae213388c934822d89111f1.svg?invert_in_darkmode&sanitize=true" align=middle width=723.5284023pt height=16.438356pt/></p>
 
 * In words, the probability of <img src="/tex/e97e7e0e1e15b59d7243a919936fc344.svg?invert_in_darkmode&sanitize=true" align=middle width=133.83342389999999pt height=22.465723500000017pt/> occuring is the probability of <img src="/tex/8c9a29562ee11544c0ead9e8fcae1633.svg?invert_in_darkmode&sanitize=true" align=middle width=150.6599919pt height=22.465723500000017pt/> occurring times the probability of <img src="/tex/51ea793aad42e760f5acf5135930081a.svg?invert_in_darkmode&sanitize=true" align=middle width=20.45482229999999pt height=22.465723500000017pt/> occurring given that <img src="/tex/8c9a29562ee11544c0ead9e8fcae1633.svg?invert_in_darkmode&sanitize=true" align=middle width=150.6599919pt height=22.465723500000017pt/> occurred. 
+
+* **Total Probability theorem**: If <img src="/tex/a673e88badcaf0436ba08dc1d9d8e8b8.svg?invert_in_darkmode&sanitize=true" align=middle width=106.43629589999999pt height=22.465723500000017pt/> are disjoint events, then
+<p align="center"><img src="/tex/7cf171e2345005a56b924ce3be43fb94.svg?invert_in_darkmode&sanitize=true" align=middle width=204.31865355pt height=45.2741091pt/></p>
+
+In other words, the total probability that an event <img src="/tex/61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode&sanitize=true" align=middle width=13.29340979999999pt height=22.465723500000017pt/> occurs is the weighted sum of the probabilities <img src="/tex/61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode&sanitize=true" align=middle width=13.29340979999999pt height=22.465723500000017pt/> occurs under all disjoint scenarios, weighted by the probability of each scenario.  

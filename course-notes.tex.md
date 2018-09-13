@@ -93,3 +93,10 @@ $$
 $$
 
 In other words, the total probability that an event $B$ occurs is the weighted sum of the probabilities $B$ occurs under all disjoint scenarios, weighted by the probability of each scenario.  
+
+* **Bayes Theorem**: Consider that we have some set of disjoint events $A_i$, each with probability $A_i$. These are our *prior beliefs*. Let $B$ be an event which could occur under the possible scenarios $A_i$. Bayes' rule essentially allows for updating our prior beliefs given open the observation that $B$ occured. The rule states that
+$$
+\mathbf{P}(A_i|B) = \dfrac{\mathbf{P}(A_i) \cdot \mathbf{P}(B|A_i)}{\sum\limits_{i=1} \mathbf{P}(A_i) \cdot \mathbf{P}(B|A_i)}
+$$
+
+Note that the infinite sum only applies in the case the events $A_i$ are a *sequence* of disjoint events (refer countable additivity theorem). 

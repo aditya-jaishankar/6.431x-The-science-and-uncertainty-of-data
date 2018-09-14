@@ -86,3 +86,14 @@ In other words, the total probability that an event <img src="/tex/61e84f854bc62
 <p align="center"><img src="/tex/0f43613360b5bd346bd1a3cda84b8188.svg?invert_in_darkmode&sanitize=true" align=middle width=226.04392305pt height=49.18885125pt/></p>
 
 Note that the infinite sum only applies in the case the events <img src="/tex/4ebf880807deff5796460f39aea46f80.svg?invert_in_darkmode&sanitize=true" align=middle width=16.97969789999999pt height=22.465723500000017pt/> are a *sequence* of disjoint events (refer countable additivity theorem). 
+
+* The term inference, which we look at in a lot more detail, is the process of updating prior beliefs given the outcome of an event under the scenario of the belief. 
+
+### Lecture 3: Independence
+
+* Two events are considered independent if the occurrence of one event doesn't change the probability of the other event. One vent doesn't change our beliefs about the other event. 
+* More formally, two events <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> and <img src="/tex/61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode&sanitize=true" align=middle width=13.29340979999999pt height=22.465723500000017pt/> are independent if <img src="/tex/9f5e9cdfcd69917b966994dd22f55e39.svg?invert_in_darkmode&sanitize=true" align=middle width=180.42193949999998pt height=24.65753399999998pt/>. 
+* Some intuition here: Indepenence is completely different from two events being disjoint. In fact, if two events are disjoint, the occurrence of one event immediately means that the other event did not occur. So disjoint events are like siamese twins, so to speak. 
+* Independence usually arises when the events occur due to some non-interacting physical processes. For example, whether I toss a heads and whether it will rain on New Year's Day. 
+* 
+

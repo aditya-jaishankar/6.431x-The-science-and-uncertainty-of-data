@@ -100,3 +100,14 @@ $$
 $$
 
 Note that the infinite sum only applies in the case the events $A_i$ are a *sequence* of disjoint events (refer countable additivity theorem). 
+
+* The term inference, which we look at in a lot more detail, is the process of updating prior beliefs given the outcome of an event under the scenario of the belief. 
+
+### Lecture 3: Independence
+
+* Two events are considered independent if the occurrence of one event doesn't change the probability of the other event. One vent doesn't change our beliefs about the other event. 
+* More formally, two events $A$ and $B$ are independent if $\mathbf{P}(A \cap B) = \mathbf{P}(A) \cdot \mathbf{P}(B)$. 
+* Some intuition here: Indepenence is completely different from two events being disjoint. In fact, if two events are disjoint, the occurrence of one event immediately means that the other event did not occur. So disjoint events are like siamese twins, so to speak. 
+* Independence usually arises when the events occur due to some non-interacting physical processes. For example, whether I toss a heads and whether it will rain on New Year's Day. 
+* 
+

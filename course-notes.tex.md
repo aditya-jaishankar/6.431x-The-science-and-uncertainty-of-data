@@ -120,3 +120,6 @@ $$
 * Note that if wo events $A$ and $B$ are independent, it does not automatically imply that they are conditionally independent. Can you think of a Venn diagram example as to why this is true?
 
 * Indpendence of multiple events: Events $A_i$ are independent if $\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}(A_i) \mathbf{P}(A_j) \cdots \mathbf{P}(A_m)$ for any choice and any number of $i, j$, and $m$. 
+
+* For a collection of events, independence is a very difference issue from pairwise independence. Paiwrise independence for all pairs does not imply that all events are independent. 
+

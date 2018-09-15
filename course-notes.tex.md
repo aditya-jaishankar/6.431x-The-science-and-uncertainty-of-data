@@ -109,5 +109,14 @@ Note that the infinite sum only applies in the case the events $A_i$ are a *sequ
 * More formally, two events $A$ and $B$ are independent if $\mathbf{P}(A \cap B) = \mathbf{P}(A) \cdot \mathbf{P}(B)$. 
 * Some intuition here: Indepenence is completely different from two events being disjoint. In fact, if two events are disjoint, the occurrence of one event immediately means that the other event did not occur. So disjoint events are like siamese twins, so to speak. 
 * Independence usually arises when the events occur due to some non-interacting physical processes. For example, whether I toss a heads and whether it will rain on New Year's Day. 
-* 
 
+* If $A$ and $B$ are independent events, then $A^c$ and $B^c$ are also independent, and so are $A$ and $B^c$. Think about this intuitively. 
+
+* **Conditional Independence**: Two events $A$ and $B$ are conditionaly independent if
+$$
+\mathbf{P}(A \cup B)|C) = \mathbf{P}(A|C) \cdot \mathbf{P}(B|C)
+$$
+
+* Note that if wo events $A$ and $B$ are independent, it does not automatically imply that they are conditionally independent. Can you think of a Venn diagram example as to why this is true?
+
+* Indpendence of multiple events: Events $A_i$ are independent if $\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}(A_i) \mathbf{P}(A_j) \cdots \mathbf{P}(A_m)$ for any choice and any number of $i, j$, and $m$. 

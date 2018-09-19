@@ -105,5 +105,14 @@ Note that the infinite sum only applies in the case the events <img src="/tex/4e
 
 * Indpendence of multiple events: Events <img src="/tex/4ebf880807deff5796460f39aea46f80.svg?invert_in_darkmode&sanitize=true" align=middle width=16.97969789999999pt height=22.465723500000017pt/> are independent if <img src="/tex/ad53ceb1aae282cfd0cdc7bc379a1179.svg?invert_in_darkmode&sanitize=true" align=middle width=345.93360284999994pt height=24.65753399999998pt/> for any choice and any number of <img src="/tex/3e384b223dce750e6c98aa501355f00b.svg?invert_in_darkmode&sanitize=true" align=middle width=20.679527549999985pt height=21.68300969999999pt/>, and <img src="/tex/0e51a2dede42189d77627c4d742822c3.svg?invert_in_darkmode&sanitize=true" align=middle width=14.433101099999991pt height=14.15524440000002pt/>. 
 
-* For a collection of events, independence is a very difference issue from pairwise independence. Paiwrise independence for all pairs does not imply that all events are independent. 
+* For a collection of events, independence is a very difference issue from pairwise independence. Paiwrise independence for all pairs does not imply that all events are independent.
+
+## Unit 3: Counting
+
+### Lecture 4: Counting
+
+* The binomial coefficient is defined as
+<p align="center"><img src="/tex/32f4078eb8170704357202a0ad968481.svg?invert_in_darkmode&sanitize=true" align=middle width=34.06790145pt height=39.452455349999994pt/></p>
+
+* This is the same as <img src="/tex/88e12ae2aa7d6ef07581523a03009734.svg?invert_in_darkmode&sanitize=true" align=middle width=27.96281729999999pt height=22.465723500000017pt/> and is very useful is calculating binomial probabilities. For example, if I have a biased coin that gives heads with probability <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/>, what is the probability that in <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> tosses I will get <img src="/tex/63bb9849783d01d91403bc9a5fea12a2.svg?invert_in_darkmode&sanitize=true" align=middle width=9.075367949999992pt height=22.831056599999986pt/> heads.  
 

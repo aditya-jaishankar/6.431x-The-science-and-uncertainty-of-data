@@ -121,5 +121,16 @@ $$
 
 * Indpendence of multiple events: Events $A_i$ are independent if $\mathbf{P}(A_1 \cap A_2 \cap \cdots \cap A_n) = \mathbf{P}(A_i) \mathbf{P}(A_j) \cdots \mathbf{P}(A_m)$ for any choice and any number of $i, j$, and $m$. 
 
-* For a collection of events, independence is a very difference issue from pairwise independence. Paiwrise independence for all pairs does not imply that all events are independent. 
+* For a collection of events, independence is a very difference issue from pairwise independence. Paiwrise independence for all pairs does not imply that all events are independent.
+
+## Unit 3: Counting
+
+### Lecture 4: Counting
+
+* The binomial coefficient is defined as
+$$
+\binom{n}{k}
+$$
+
+* This is the same as $^n C_k$ and is very useful is calculating binomial probabilities. For example, if I have a biased coin that gives heads with probability $p$, what is the probability that in $n$ tosses I will get $k$ heads.  
 

@@ -114,7 +114,7 @@ Note that the infinite sum only applies in the case the events $A_i$ are a *sequ
 
 * **Conditional Independence**: Two events $A$ and $B$ are conditionaly independent if
 $$
-\mathbf{P}(A \cup B)|C) = \mathbf{P}(A|C) \cdot \mathbf{P}(B|C)
+\mathbf{P}(A \cap B)|C) = \mathbf{P}(A|C) \cdot \mathbf{P}(B|C)
 $$
 
 * Note that if wo events $A$ and $B$ are independent, it does not automatically imply that they are conditionally independent. Can you think of a Venn diagram example as to why this is true?
@@ -134,3 +134,9 @@ $$
 
 * This is the same as $^n C_k$ and is very useful is calculating binomial probabilities. For example, if I have a biased coin that gives heads with probability $p$, what is the probability that in $n$ tosses I will get $k$ heads.  
 
+* The binomial coefficient can be expanded as:
+$$
+(a + b)^n = \sum\limits_{k=0}^n \binom{n}{k} a^k b^{n-k}
+$$
+
+* *Keep in mind the physical interpretation of the RHS of the above equation:* The quantity $\binom{n}{k}p^k (1-p)^{n-k}$ is the porbability that an unfair coin with probability $p$ of getting a head will give $k$ heads when tossed $n$ times; these heads can be mixed and arranged in $\binom{n}{k}$ ways. Also, the sum in the above equation (with $a = p$ and $b = 1-p$) covers the entire sample space, i.e., the probability of getting 1 head or 2 heads or, $\cdots$, $n$ heads, and therefore that sum is one. Very useful physical interpretation of binomial probabilities.   

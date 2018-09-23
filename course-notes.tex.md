@@ -176,3 +176,8 @@ $
 p_{I_A}(1) = \mathbf{P}(I_A = 1) = \mathbf{P}(A)
 $
 
+* **Discrete uniform random variable:** The random variable $X(\omega) = \omega$ and $\omega \in {a,b}$ where $a$ and $b$ are integers. Therefore there are $b - a +1$ integers in the range. The PMF for this random variable is
+$
+p_X(x) = \frac{1}{b-a +1}
+$
+

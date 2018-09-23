@@ -127,6 +127,8 @@ $$
 
 ### Lecture 4: Counting
 
+* Counting techniques can be used whenever the elements of the sample space are equally likely i.e. the probabiliy of an event is proportional to the number of events in that sample space. 
+
 * The binomial coefficient is defined as
 $$
 \binom{n}{k}
@@ -140,3 +142,9 @@ $$
 $$
 
 * *Keep in mind the physical interpretation of the RHS of the above equation:* The quantity $\binom{n}{k}p^k (1-p)^{n-k}$ is the porbability that an unfair coin with probability $p$ of getting a head will give $k$ heads when tossed $n$ times; these heads can be mixed and arranged in $\binom{n}{k}$ ways. Also, the sum in the above equation (with $a = p$ and $b = 1-p$) covers the entire sample space, i.e., the probability of getting 1 head or 2 heads or, $\cdots$, $n$ heads, and therefore that sum is one. Very useful physical interpretation of binomial probabilities.   
+
+## Unit 4: Discrete Random Variables
+
+### Lecture 5: Probability mass functions and expectations
+
+* 

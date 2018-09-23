@@ -147,4 +147,14 @@ $$
 
 ### Lecture 5: Probability mass functions and expectations
 
-* 
+* A ** random variable** is a variables whose value depends on the outcome of a probabilistic experiment. A **discrete random variable** is a random variable whose value is in a finite or countably infinite set. 
+
+* A random variable can be thought of as a function that takes a particular element in the sample space $\Omega$ and maps it to a particular value (in the case of a discrete random variable, the value is in a finite set or a countably infinite set). 
+
+* **Notation:** Random variables are denoted by a capital letter $X$ as opposed to the value of a particular outcome of the random variable, which is denoted in lower-case letters $x$. 
+
+* We can define a random variable that is a function of random variable i.e. $Z = X + Y$ which produces the value $z$ when the value of $X$ is $x$ and the value of $Y$ is $y$. 
+
+* A key concept is that of a **probability mass function** or the **probability distribution** which determines the probability that a discrete random variable $X$ takes value $x$. The notation is $p_X(x)$ or $\mathbf{P}(X=x)$. Some properties: $p_X(x) \geq 0$ and $\sum_ip_X(x)=1$ where $x_i$ captures every element of the sample space (these are all disjoint because the sample space here is considered to be discrete. For example, think about two successive rolls of a die. Let the value of the first roll is described by the discrete random variable $X$ and the second be $Y$. Define $Z = X+Y$. Then $p_Z(2) = 1/16$, $p_Z(3) = 2/16$ (the outcome that $X=1$ and $Y=2$ or $X=2$ and $Y=1$), etc. 
+
+* It's useful to plot probability distributions.

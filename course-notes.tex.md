@@ -147,7 +147,7 @@ $$
 
 ### Lecture 5: Probability mass functions and expectations
 
-* A **random variable** is a variables whose value depends on the outcome of a probabilistic experiment. A **discrete random variable** is a random variable whose value is in a finite or countably infinite set. 
+* A **random variable** is a variables whose value depends on the outcome of a probabilistic experiment. A **discrete random variable** is a random variable whose value is in a finite or countably infinite set. Thnumber of possible values a discrete random variable can take is finite or countably infinite. 
 
 * A random variable can be thought of as a function that takes a particular element in the sample space $\Omega$ and maps it to a particular value (in the case of a discrete random variable, the value is in a finite set or a countably infinite set). 
 
@@ -159,9 +159,19 @@ $$
 
 * The formal definition of a probability mass function is 
 $$
-\boxed{p_X(x) = \mathbf{P}({\omega \in \Omega : X(\omega)=x})}
+p_X(x) = \mathbf{P}({\omega \in \Omega : X(\omega)=x})
 $$
 
 * In words, the probability distribution or the probability mass function is described as the probability of the event containing those elements $\omega \in \Omega$ such that the value of the discrete random variable $X(\omega) = x$. Find all the event consisting of the elements $\omega$ for which the value of the discrete random variable $X$ at those $\omega$ is $x$.  
 
 * It's useful to plot probability distributions.
+
+* **Bernoulli Random Variables**: They only take two values 0 and 1 with probability $1-p$ and $p$ respectively. i.e the PMF can be written as
+$
+p_X(x) = p if x=1; 1-p if x=0
+$
+
+* Bernoulli Random Variables can be linked to indicator random variables $I_A$. These random variables tell us whether an event $A$ occured or its complement $A^c$ occurred i.e. $A$ did not occur. $I_A =1$ if $A$ occured and 0 if $A^c$ occurred. 
+$
+p_{I_A}(1) = \mathbf{P}(I_A = 1) = \mathbf{P}(A)
+$

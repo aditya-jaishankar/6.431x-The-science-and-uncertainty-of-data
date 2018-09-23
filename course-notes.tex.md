@@ -174,15 +174,15 @@ $
 p_{I_A}(1) = \mathbf{P}(I_A = 1) = \mathbf{P}(A)
 $
 
-* **Discrete uniform random variable:** The random variable $X(\omega) = \omega$ and $\omega \in {a,b}$ where $a$ and $b$ are integers. Therefore there are $b - a +1$ integers in the range. The PMF for this random variable is
+* **Discrete uniform random variable:** Parameters $a, b$. The random variable $X(\omega) = \omega$ and $\omega \in {a,b}$ where $a$ and $b$ are integers. Therefore there are $b - a +1$ integers in the range. The PMF for this random variable is
 $
 p_X(x) = \frac{1}{b-a +1}
 $
 
-* **Binomial random variable**: This random variables describes the number of successes in an experiment consisting of $n$ trials, all identical, where a 'success' occurs with probability $p$ and a failure with probability $1-p$. For example, tosses of a biased coin with probability $p$ of getting a head. The random variable that describes the number of heads is a binomial random variable. For a binomial random variable $X$, 
+* **Binomial random variable**: Parameters $n ,p$. This random variables describes the number of successes in an experiment consisting of $n$ trials, all identical, where a 'success' occurs with probability $p$ and a failure with probability $1-p$. For example, tosses of a biased coin with probability $p$ of getting a head. The random variable that describes the number of heads is a binomial random variable. For a binomial random variable $X$, 
 $$
 p_X(k) = \binom{n}{k}p^k(1-p)^{n-k}
 $$
 
-* **Geometric random variable:** Let the experiment be a sequence of coin tosses and the random variable $X$ to be the first occurrence of a head. Then $p_X(k)$ describes the probabilit that the first head is achieved on the $k$-th toss. Therefore we have (and think about why this is the result) $p_X(k) = (1-p)^k p$
+* **Geometric random variable:** Parameter $p$. Let the experiment be a sequence of coin tosses and the random variable $X$ to be the first occurrence of a head. Then $p_X(k)$ describes the probabilit that the first head is achieved on the $k$-th toss. Therefore we have (and think about why this is the result) $p_X(k) = (1-p)^k p$
 

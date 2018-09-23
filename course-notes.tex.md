@@ -183,3 +183,6 @@ $
 $$
 p_X(k) = \binom{n}{k}p^k(1-p)^{n-k}
 $$
+
+* **Geometric random variable:** Let the experiment be a sequence of coin tosses and the random variable $X$ to be the first occurrence of a head. Then $p_X(k)$ describes the probabilit that the first head is achieved on the $k$-th toss. Therefore we have (and think about why this is the result) $p_X(k) = (1-p)^k p$
+

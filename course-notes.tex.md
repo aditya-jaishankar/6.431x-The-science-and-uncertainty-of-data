@@ -171,7 +171,8 @@ $
 p_X(x) = p if x=1; 1-p if x=0
 $
 
-* Bernoulli Random Variables can be linked to indicator random variables $I_A$. These random variables tell us whether an event $A$ occured or its complement $A^c$ occurred i.e. $A$ did not occur. $I_A =1$ if $A$ occured and 0 if $A^c$ occurred. 
+* Bernoulli Random Variables can be linked to **indicator random variables** $I_A$. These random variables tell us whether an event $A$ occured or its complement $A^c$ occurred i.e. $A$ did not occur. $I_A =1$ if $A$ occured and 0 if $A^c$ occurred. 
 $
 p_{I_A}(1) = \mathbf{P}(I_A = 1) = \mathbf{P}(A)
 $
+

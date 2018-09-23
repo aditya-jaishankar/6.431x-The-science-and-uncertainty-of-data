@@ -111,6 +111,8 @@ Note that the infinite sum only applies in the case the events <img src="/tex/4e
 
 ### Lecture 4: Counting
 
+* Counting techniques can be used whenever the elements of the sample space are equally likely i.e. the probabiliy of an event is proportional to the number of events in that sample space. 
+
 * The binomial coefficient is defined as
 <p align="center"><img src="/tex/32f4078eb8170704357202a0ad968481.svg?invert_in_darkmode&sanitize=true" align=middle width=34.06790145pt height=39.452455349999994pt/></p>
 
@@ -120,3 +122,9 @@ Note that the infinite sum only applies in the case the events <img src="/tex/4e
 <p align="center"><img src="/tex/dd2d1bc4f357977a97395b24e45d9472.svg?invert_in_darkmode&sanitize=true" align=middle width=189.70161045pt height=45.2741091pt/></p>
 
 * *Keep in mind the physical interpretation of the RHS of the above equation:* The quantity <img src="/tex/8250e8b3b5ce1cc3fcd9f6e9fb275f93.svg?invert_in_darkmode&sanitize=true" align=middle width=114.58558154999997pt height=27.94539330000001pt/> is the porbability that an unfair coin with probability <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/> of getting a head will give <img src="/tex/63bb9849783d01d91403bc9a5fea12a2.svg?invert_in_darkmode&sanitize=true" align=middle width=9.075367949999992pt height=22.831056599999986pt/> heads when tossed <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> times; these heads can be mixed and arranged in <img src="/tex/8afda0bcf2f9f7e7008eadbe487e90f6.svg?invert_in_darkmode&sanitize=true" align=middle width=23.194596149999988pt height=27.94539330000001pt/> ways. Also, the sum in the above equation (with <img src="/tex/7917e56da2cfdf60a7837d5e8ef7b45c.svg?invert_in_darkmode&sanitize=true" align=middle width=38.87735114999999pt height=14.15524440000002pt/> and <img src="/tex/7e6ceebf97d8a05c98f42db3d154b4c4.svg?invert_in_darkmode&sanitize=true" align=middle width=65.5533945pt height=22.831056599999986pt/>) covers the entire sample space, i.e., the probability of getting 1 head or 2 heads or, <img src="/tex/913bd9da06e7627df2fec1cd392760b8.svg?invert_in_darkmode&sanitize=true" align=middle width=19.17798959999999pt height=14.611911599999981pt/>, <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> heads, and therefore that sum is one. Very useful physical interpretation of binomial probabilities.   
+
+## Unit 4: Discrete Random Variables
+
+### Lecture 5: Probability mass functions and expectations
+
+* 

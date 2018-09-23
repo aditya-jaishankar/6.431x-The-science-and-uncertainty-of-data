@@ -164,8 +164,6 @@ $$
 
 * In words, the probability distribution or the probability mass function is described as the probability of the event containing those elements $\omega \in \Omega$ such that the value of the discrete random variable $X(\omega) = x$. Find all the event consisting of the elements $\omega$ for which the value of the discrete random variable $X$ at those $\omega$ is $x$.  
 
-* It's useful to plot probability distributions.
-
 * **Bernoulli Random Variables**: They only take two values 0 and 1 with probability $1-p$ and $p$ respectively. i.e the PMF can be written as
 $
 p_X(x) = p if x=1; 1-p if x=0
